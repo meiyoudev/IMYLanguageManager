@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22F630ED0C0137A3E1CDFD01 /* IMYLanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F63794D220FFBDCC38BC0C /* IMYLanguageManager.m */; };
+		22F6315C4E255B281319266D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F63C20646B8E800B5C9AF4 /* Main.storyboard */; };
+		22F632E483893A6CF505140B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F63160E051F6037EDD39D0 /* LaunchScreen.xib */; };
+		22F6347730446744B843F7BE /* LanguagesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F63DC285FB54C6BBA3C35C /* LanguagesManager.m */; };
+		22F6359769DD53824F179604 /* IMYLanguageManager.podspec.json in Resources */ = {isa = PBXBuildFile; fileRef = 22F6335DB58AAE312E3E6721 /* IMYLanguageManager.podspec.json */; };
+		22F6365296FF2842F266AB0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F639AABD66661B5E97C7C9 /* main.m */; };
+		22F638E14029903C66AFB8A1 /* IMYLanguageManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F63E7F1CF9EEBD0782BCBB /* IMYLanguageManagerTests.m */; };
+		22F63C13F278DF6F6E795D62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F63CE72430271F3761C008 /* AppDelegate.m */; };
+		22F63ECA3A814AC6B30AD83E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F6326F74B06C0B4DC1FF10 /* ViewController.m */; };
+		22F63FD3CC5FD2F44351DFB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F63153E18CD288E1B26816 /* Images.xcassets */; };
+		2C0828541AD4F9250074626B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C0828561AD4F9250074626B /* Localizable.strings */; };
+		2C08285D1AD4FA030074626B /* Other.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C08285F1AD4FA030074626B /* Other.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22F63318C55B0FE5CAF44686 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22F63090998517D463E91341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22F6353CBE75E50B999ACF26;
+			remoteInfo = IMYLanguageManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22F63070013AF1A883C42ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		22F630DC0BEEA8C71691E6BA /* LanguagesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguagesManager.h; sourceTree = "<group>"; };
+		22F63153E18CD288E1B26816 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		22F6326F74B06C0B4DC1FF10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22F6332624E2C00E97B00CDA /* IMYLanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMYLanguageManager.h; sourceTree = "<group>"; };
+		22F6334407CF020D6937DD01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22F6335DB58AAE312E3E6721 /* IMYLanguageManager.podspec.json */ = {isa = PBXFileReference; lastKnownFileType = file.json; path = IMYLanguageManager.podspec.json; sourceTree = SOURCE_ROOT; };
+		22F634E098296C9C9CAC141C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		22F634E93A4237B776E00E02 /* IMYLanguageManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMYLanguageManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F63794D220FFBDCC38BC0C /* IMYLanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMYLanguageManager.m; sourceTree = "<group>"; };
+		22F639AABD66661B5E97C7C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22F63A35B7CAE9FE16F36535 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22F63BA5AEB9ED63EB29F429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		22F63BCC0175D55646602E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22F63CE72430271F3761C008 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22F63DC285FB54C6BBA3C35C /* LanguagesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguagesManager.m; sourceTree = "<group>"; };
+		22F63E7F1CF9EEBD0782BCBB /* IMYLanguageManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMYLanguageManagerTests.m; sourceTree = "<group>"; };
+		22F63FA9C2D231B5CACA41A6 /* IMYLanguageManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMYLanguageManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C0828501AD4F8FD0074626B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		2C0828511AD4F8FD0074626B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		2C0828521AD4F9020074626B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		2C0828531AD4F9030074626B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		2C0828551AD4F9250074626B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2C0828581AD4F9280074626B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2C08285A1AD4F9670074626B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2C08285E1AD4FA030074626B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Other.strings; sourceTree = "<group>"; };
+		2C0828601AD4FA050074626B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Other.strings"; sourceTree = "<group>"; };
+		2C0828611AD4FA050074626B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Other.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22F63977A9596E27FC25221C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F63D3D0AF22FE526E68E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22F63130E8C19FA08D67D30F /* LanguagesManager */ = {
+			isa = PBXGroup;
+			children = (
+				22F630DC0BEEA8C71691E6BA /* LanguagesManager.h */,
+				22F63DC285FB54C6BBA3C35C /* LanguagesManager.m */,
+				22F63794D220FFBDCC38BC0C /* IMYLanguageManager.m */,
+				22F6332624E2C00E97B00CDA /* IMYLanguageManager.h */,
+			);
+			path = LanguagesManager;
+			sourceTree = "<group>";
+		};
+		22F6326AECAFFFABCA5B2DE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22F63BA5AEB9ED63EB29F429 /* Info.plist */,
+				22F639AABD66661B5E97C7C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22F633E44F8940EA1DF7A2C4 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				22F63130E8C19FA08D67D30F /* LanguagesManager */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		22F6340F4B45F65B778ED40C /* IMYLanguageManager */ = {
+			isa = PBXGroup;
+			children = (
+				22F6326AECAFFFABCA5B2DE6 /* Supporting Files */,
+				22F63153E18CD288E1B26816 /* Images.xcassets */,
+				22F63160E051F6037EDD39D0 /* LaunchScreen.xib */,
+				22F63A35B7CAE9FE16F36535 /* AppDelegate.h */,
+				22F63CE72430271F3761C008 /* AppDelegate.m */,
+				22F63C20646B8E800B5C9AF4 /* Main.storyboard */,
+				22F6334407CF020D6937DD01 /* ViewController.h */,
+				22F6326F74B06C0B4DC1FF10 /* ViewController.m */,
+				22F633E44F8940EA1DF7A2C4 /* source */,
+				2C0828561AD4F9250074626B /* Localizable.strings */,
+				2C08285F1AD4FA030074626B /* Other.strings */,
+				22F6335DB58AAE312E3E6721 /* IMYLanguageManager.podspec.json */,
+			);
+			path = IMYLanguageManager;
+			sourceTree = "<group>";
+		};
+		22F63441B2AE5754EC35E7EC = {
+			isa = PBXGroup;
+			children = (
+				22F63B5FF95E8688061149D9 /* Products */,
+				22F6340F4B45F65B778ED40C /* IMYLanguageManager */,
+				22F63DFE3397F43FD68A879D /* IMYLanguageManagerTests */,
+			);
+			sourceTree = "<group>";
+		};
+		22F63B5FF95E8688061149D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22F63FA9C2D231B5CACA41A6 /* IMYLanguageManager.app */,
+				22F634E93A4237B776E00E02 /* IMYLanguageManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22F63DFE3397F43FD68A879D /* IMYLanguageManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				22F63E3FA058957B0B418FBC /* Supporting Files */,
+				22F63E7F1CF9EEBD0782BCBB /* IMYLanguageManagerTests.m */,
+			);
+			path = IMYLanguageManagerTests;
+			sourceTree = "<group>";
+		};
+		22F63E3FA058957B0B418FBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22F63070013AF1A883C42ADD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22F630A7525321F8D87B849F /* IMYLanguageManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F631714205AC39B28A5BBF /* Build configuration list for PBXNativeTarget "IMYLanguageManagerTests" */;
+			buildPhases = (
+				22F63EB820975B37F196A3F4 /* Sources */,
+				22F63977A9596E27FC25221C /* Frameworks */,
+				22F63AC15B9A38A27CEC366B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22F63182878A5346292B7F1C /* PBXTargetDependency */,
+			);
+			name = IMYLanguageManagerTests;
+			productName = IMYLanguageManagerTests;
+			productReference = 22F634E93A4237B776E00E02 /* IMYLanguageManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22F6353CBE75E50B999ACF26 /* IMYLanguageManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F636FF4BECDDD2B5AE87BC /* Build configuration list for PBXNativeTarget "IMYLanguageManager" */;
+			buildPhases = (
+				22F63819B96D8C0073C33D86 /* Sources */,
+				22F63D3D0AF22FE526E68E8E /* Frameworks */,
+				22F631C30EBE53D4EF8FE11C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMYLanguageManager;
+			productName = IMYLanguageManager;
+			productReference = 22F63FA9C2D231B5CACA41A6 /* IMYLanguageManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22F63090998517D463E91341 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = MeiYou;
+			};
+			buildConfigurationList = 22F631C41DD9A0B3495E9241 /* Build configuration list for PBXProject "IMYLanguageManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hant",
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 22F63441B2AE5754EC35E7EC;
+			productRefGroup = 22F63B5FF95E8688061149D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22F6353CBE75E50B999ACF26 /* IMYLanguageManager */,
+				22F630A7525321F8D87B849F /* IMYLanguageManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22F631C30EBE53D4EF8FE11C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C08285D1AD4FA030074626B /* Other.strings in Resources */,
+				22F63FD3CC5FD2F44351DFB9 /* Images.xcassets in Resources */,
+				22F632E483893A6CF505140B /* LaunchScreen.xib in Resources */,
+				22F6315C4E255B281319266D /* Main.storyboard in Resources */,
+				2C0828541AD4F9250074626B /* Localizable.strings in Resources */,
+				22F6359769DD53824F179604 /* IMYLanguageManager.podspec.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F63AC15B9A38A27CEC366B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22F63819B96D8C0073C33D86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F6365296FF2842F266AB0A /* main.m in Sources */,
+				22F63C13F278DF6F6E795D62 /* AppDelegate.m in Sources */,
+				22F63ECA3A814AC6B30AD83E /* ViewController.m in Sources */,
+				22F6347730446744B843F7BE /* LanguagesManager.m in Sources */,
+				22F630ED0C0137A3E1CDFD01 /* IMYLanguageManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22F63EB820975B37F196A3F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F638E14029903C66AFB8A1 /* IMYLanguageManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22F63182878A5346292B7F1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22F6353CBE75E50B999ACF26 /* IMYLanguageManager */;
+			targetProxy = 22F63318C55B0FE5CAF44686 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22F63160E051F6037EDD39D0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22F634E098296C9C9CAC141C /* Base */,
+				2C0828501AD4F8FD0074626B /* zh-Hans */,
+				2C0828521AD4F9020074626B /* zh-Hant */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		22F63C20646B8E800B5C9AF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22F63BCC0175D55646602E82 /* Base */,
+				2C0828511AD4F8FD0074626B /* zh-Hans */,
+				2C0828531AD4F9030074626B /* zh-Hant */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C0828561AD4F9250074626B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C0828551AD4F9250074626B /* zh-Hans */,
+				2C0828581AD4F9280074626B /* zh-Hant */,
+				2C08285A1AD4F9670074626B /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		2C08285F1AD4FA030074626B /* Other.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C08285E1AD4FA030074626B /* en */,
+				2C0828601AD4FA050074626B /* zh-Hans */,
+				2C0828611AD4FA050074626B /* zh-Hant */,
+			);
+			name = Other.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22F636A1911EB132891F88E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IMYLanguageManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22F63741458FB01B869C1ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IMYLanguageManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22F638CF4743B947CE36B51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IMYLanguageManager.app/IMYLanguageManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IMYLanguageManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		22F63A9401BF87D4E951162F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22F63B4DC58ABED156E03304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IMYLanguageManager.app/IMYLanguageManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IMYLanguageManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		22F63DBA12CF21ACCA48C229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22F631714205AC39B28A5BBF /* Build configuration list for PBXNativeTarget "IMYLanguageManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F63B4DC58ABED156E03304 /* Debug */,
+				22F638CF4743B947CE36B51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22F631C41DD9A0B3495E9241 /* Build configuration list for PBXProject "IMYLanguageManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F63DBA12CF21ACCA48C229 /* Debug */,
+				22F63A9401BF87D4E951162F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22F636FF4BECDDD2B5AE87BC /* Build configuration list for PBXNativeTarget "IMYLanguageManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F636A1911EB132891F88E4 /* Debug */,
+				22F63741458FB01B869C1ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22F63090998517D463E91341 /* Project object */;
+}
